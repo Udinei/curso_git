@@ -5,7 +5,7 @@
 
 `git add` - Adiciona arquivos ou pastas ao controle do git
 
-`git commit` - Adiciona um ponto na linha do tempo de controle do git
+`git commit -m "digiteSeuComentarioAqui"` - Adiciona um ponto de controle na linha do tempo do git
 
 `git log` - Exibe os pontos de controle da linha do tempo
 
