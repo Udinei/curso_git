@@ -22,4 +22,5 @@
 
 ### Comandos para desconectar repositorio local do repositorio remoto (github)
 `git remote -v` - Exibe o nome e endereço dos repositorios remotos, os quais a pasta local versionada pelo git esta conectada
+
 `git remote rm <nameRepository>` - Desconecta a pasta local versionada pelo git do repositorio remotos informado
