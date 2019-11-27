@@ -63,3 +63,53 @@
 `git remote -v` - Exibe o nome e endereço dos repositorios remotos, os quais a pasta local versionada pelo git esta conectada
 
 `git remote rm <nameRepository>` - Desconecta a pasta local versionada pelo git do repositorio remotos informado
+
+### Criando o .gitignore
+
+`touch .gitignore` - Cria o arquivo .gitignore no diretorio corrente
+
+### Possivel conteudo para .gitignore
+
+target/
+
+### Vim editor de textost 
+O Vim possui dois modos de operação:
+
+`i` - Entra em modo de edição, também pode ser usado `a` 
+
+`Esc` - Entra em modo de comando
+
+###  Vim salvando o arquivo
+Entrar em modo de comando `Esc` e digitar dois pontos `:`
+
+`:w` - Salva o arquivo, também pode ser usado `ZZ` 
+       nos dois caso pode passar um argumento. Ex: :w nomeArq.txt
+
+`:wq` - Salva o arquivo e sai do Vim
+
+`:w!` - O arquivo será salvo mesmo se aberto no modo somente leitura 
+        (readonly)
+
+`:q` - Sai do Vim. Se o arquivo não foi salvo, o programa emitirá um 
+       alerta.
+
+`:q!` - Força a saída, mesmo que o arquivo tenha sido modificado e não 
+        tenha sido salvo anteriormente
+
+###  Vim editando textos (deve-se estar em modo de comando - Esc)
+
+`dd` - Apaga a linha do cursor       
+
+`dw` - Apaga a palavra que esta o cursor 
+
+`y` - Copia a linha para a memoria
+
+`yy` - Copia a linha para a área de transferência
+
+`yw` - Copia a palavra a partir da posição do cursor para a memoria
+
+`p` - Colar o texto da memoria ou da área de transferencia para posição do cursor 
+
+
+
+
