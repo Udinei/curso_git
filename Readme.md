@@ -35,7 +35,7 @@
 `git reset --soft <hash>` - apaga do repositorio e do historico todos commits acima das hash e volta as alterações anteriormente feitas para o stage
 
 ### Alterando coisas no Git
-`git commit --amend`  - Para alterar o ultimo commit. O Git vai abrir o editor, com o conteúdo da mensagem do último commit e você pode editar e salvar e executar o comando para atulizar remotamente  `git push --force` 
+`git commit --amend`  - Para alterar a mensagem do ultimo commit. O Git vai abrir o editor, com o conteúdo da mensagem do último commit e você pode editar e salvar e executar o comando para atulizar remotamente  `git push --force` 
 
 `git reset --mixed <hash>` - apaga do repositorio e do historico todos commits acima das hash e volta os arquivos para unstage 
 
