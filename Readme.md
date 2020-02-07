@@ -46,7 +46,8 @@
 
 `git config credential.helper store` - Armazena suas credenciais do git no disk, evitando ter que digitar login e senha toda vez que fizer commit no github
 
-`git rm nomefile` - remove um arquivo do controle de versão do git (O arquivo não é removido fisicamente)
+`git rm nomefile` - Remove arquivo do controle de versão do git (O arquivo não é removido fisicamente)
+`git check-ignore -v -n --no-index nomefile` - Excluir um arquivo de ser incluso no controle de versão do git
 
 ### Comando Git Checkout
 `git checkout -b nome-branch` - Cria uma nova branch em seguida o checkout é feito
