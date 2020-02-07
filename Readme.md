@@ -37,6 +37,8 @@
 ### Alterando coisas no Git
 `git commit --amend`  - Para alterar a mensagem do ultimo commit. O Git vai abrir o editor, com o conteúdo da mensagem do último commit e você pode editar e salvar e executar o comando para atulizar remotamente  `git push --force` 
 
+ `git push --force` - Força commit no repositorio remoto
+
 `git reset --mixed <hash>` - apaga do repositorio e do historico todos commits acima das hash e volta os arquivos para unstage 
 
 `git reset --hard <hash>` -  apaga do repositorio e do historico todos commits acima das hash e as alterações feitas nos arquivos
