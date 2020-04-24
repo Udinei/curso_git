@@ -1,5 +1,9 @@
 ## Git e Github 
 
+### Configuração inicial após instalação
+git config --global user.name "Fulano de Tal"
+git config --global user.email fulanodetal@exemplo.br
+
 ### Comandos básicos do git
 
 `git init` - Sinaliza que a pasta atual e os arquivos criados nela serão versionados pelo git. Esse comando cria uma pasta oculta chamada .git
