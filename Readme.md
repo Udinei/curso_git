@@ -56,12 +56,19 @@ git config --global user.email fulanodetal@exemplo.br
 `git check-ignore -v -n --no-index nomefile` - Excluir um arquivo de ser incluso no controle de versão do git
 
 ### Comando Git Checkout
-`git checkout -b nome-branch` - Cria uma nova branch em seguida o checkout é feito
+`git checkout -b nome-branch` - Cria uma nova branch a partir da branch atual, e posicina na nova branch
 
 `git checkout nova-branch` - Cria localmente a branch master (remota)
 
 `git checkout <hash>` - posiciona o cursor do git num commit especifico
 
+
+
+## Removendo branchs remota
+`git push origin --delete <branch>`
+
+## Removendo branchs local
+`git branch -d <branch>`
 
 ### Comandos para conectar repositorio local ao repositorio remoto (github)
 
