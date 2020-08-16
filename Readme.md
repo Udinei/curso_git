@@ -64,7 +64,15 @@ git config --global user.email fulanodetal@exemplo.br
 
 `git checkout <hash>` - posiciona o cursor do git num commit especifico
 
-
+### Estratégia de merge fast-foward (quando não há conflitos entre os branches envolvidos)
+No branch (feature) atualiza-o com o conteúdo de master
+`git rebase master`
+ 
+Posicionar no branch master 
+`git checkout master` - indo para o branch do master
+ 
+No branche master fazer merge com branche feature
+`git merge feature`    - fazendo o merge entre o master e o feature
 
 ## Removendo branchs remota
 `git push origin --delete <branch>`
