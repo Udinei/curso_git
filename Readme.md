@@ -28,6 +28,8 @@ git config --global user.email fulanodetal@exemplo.br
 
 `git push` -- das proximas vez para subir as alterações basta digitar somente esse comando
 
+`git pull` - incorpora mudanças de um repositório remoto para o branch local
+
 `git checkout ` - Pode ser utilizado de varias formas ver sessão Git Checkout
 
 `git show <hash>` - Exibe as alterações do commit informado no hash
