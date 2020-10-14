@@ -55,7 +55,14 @@ git config --global user.email fulanodetal@exemplo.br
 `git config credential.helper store` - Armazena suas credenciais do git no disk, evitando ter que digitar login e senha toda vez que fizer commit no github
 
 `git rm nomefile` - Remove arquivo do controle de versão do git (O arquivo não é removido fisicamente)
+
 `git check-ignore -v -n --no-index nomefile` - Excluir um arquivo de ser incluso no controle de versão do git
+
+### Desfazendo alterações locais
+`git restore .` - Para descartar as alterações em todos os arquivos no diretório atual
+
+`git restore '.js'` - Para descartar as alterações em todos os arquivos *.js do diretório atual
+
 
 ### Comando Git Checkout
 `git checkout -b <branch>` - Cria uma nova branch a partir da branch atual, e posicina na nova branch
