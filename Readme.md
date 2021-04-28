@@ -67,11 +67,22 @@ git config --global user.email fulanodetal@exemplo.br
 ### Comando Git Checkout
 `git checkout -b <branch>` - Cria uma nova branch a partir da branch atual, e posicina na nova branch
 
-`git push -u origin <branch>` - Envia nova branch local criada com o comando acima para o github
-
 `git checkout nova-branch` - Cria localmente a branch master (remota)
 
 `git checkout <hash>` - posiciona o cursor do git num commit especifico
+
+### Comando git push
+`git push -u origin <branch>` - Envia nova branch local criada com o comando acima para o github
+
+Nota: se o comando acima exibir a msg abaixo:
+hint: Updates were rejected because the tip of your current branch is behind
+hint: its remote counterpart. Integrate the remote changes (e.g.
+hint: 'git pull ...') before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+
+Com cautela usar o comando abaixo, para forçar o commit, ter certeza de já ter feito o pull antes:
+`git push -f origin main`
+
 
 ### Estratégia de merge fast-foward (quando não há conflitos entre os branches envolvidos)
 No branch (feature) atualiza-o com o conteúdo de master
