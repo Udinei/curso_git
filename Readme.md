@@ -13,15 +13,16 @@ git config --global user.email fulanodetal@exemplo.br
 
 ### Criando o .gitignore e README.md
 
-`touch .gitignore` - Cria o arquivo .gitignore no diretorio corrente
+`touch .gitignore` - Cria o arquivo .gitignore no diretorio corrente  
+Possivel conteudo para .gitignore  
+`target/` 
 
 `touch README.md` - Cria o arquivo README.md no diretorio corrente
 
 Escrevendo no arquivo README.md   
 echo "# groovy-introducao" >> README.md
 
-Possivel conteudo para .gitignore 
-`target/` 
+
 
 ### Comandos básicos do git
 
