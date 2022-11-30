@@ -14,7 +14,22 @@ git config --global user.email fulanodetal@exemplo.br
 ### Criando o .gitignore e README.md
 
 `touch .gitignore` - Cria o arquivo .gitignore no diretorio corrente  
-[Site para gerar o .gitignore com base na IDE, Linguagens etc.. ](https://www.toptal.com/developers/gitignore)
+[Site para gerar o conteúdo do arquivo .gitignore com base na IDE, Linguagens etc.. ](https://www.toptal.com/developers/gitignore)
+[Padrão de escrita no .gitignore](https://www.atlassian.com/br/git/tutorials/saving-changes/gitignore#git-ignore-patterns)  
+
+
+'''Podemos ignorar: '''  
+A pasta inteira:  
+`pasta_ide/`  
+
+Apenas o arquivo config.ini dentro da pasta pasta_ide:  
+`pasta_ide/config.ini`  
+
+Apenas os arquivos com extensão .ini dentro da pasta:  
+`pasta_ide/*.ini`  
+
+Todos os arquivos dentro da pasta pasta_ide:
+`pasta_ide/*`  
 
 `touch README.md` - Cria o arquivo README.md no diretorio corrente
 
