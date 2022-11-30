@@ -14,7 +14,7 @@ git config --global user.email fulanodetal@exemplo.br
 ### Criando o .gitignore e README.md
 
 `touch .gitignore` - Cria o arquivo .gitignore no diretorio corrente  
-Possivel conteudo para .gitignore  
+Possivel conteudo para .gitignore:   
 `target/` 
 
 `touch README.md` - Cria o arquivo README.md no diretorio corrente
