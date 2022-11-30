@@ -1,10 +1,15 @@
 ## Git e Github 
 
 ### Configuração inicial após instalação
-`git config --list` -  Lista todas as configurações atuais do Git, para sair do comando digite `q`
 
 git config --global user.name "Fulano de Tal"
+
 git config --global user.email fulanodetal@exemplo.br
+
+
+### Visualizando as configurações atuais
+
+`git config --list` -  Lista todas as configurações atuais do Git, para sair do comando digite `q`
 
 ### Comandos básicos do git
 
