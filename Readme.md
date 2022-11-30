@@ -34,7 +34,7 @@ Todos os arquivos dentro da pasta pasta_ide:
 `touch README.md` - Cria o arquivo README.md no diretorio corrente
 
 Escrevendo no arquivo README.md   
-echo "# groovy-introducao" >> README.md
+`echo "# groovy-introducao" >> README.md`  
 
 
 
