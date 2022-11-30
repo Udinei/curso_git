@@ -17,7 +17,7 @@ git config --global user.email fulanodetal@exemplo.br
 
 `touch README.md` - Cria o arquivo README.md no diretorio corrente
 
-Escrevendo no arquivo README.md 
+Escrevendo no arquivo README.md   
 echo "# groovy-introducao" >> README.md
 
 Possivel conteudo para .gitignore 
