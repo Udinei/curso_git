@@ -72,7 +72,6 @@ Escrevendo no arquivo README.md
 
 `git diff --name-only` - exibe somente os nomes dos arquivos que foram modificados
 
-`git reset --soft <hash>` - apaga do repositorio e do historico todos commits acima das hash e volta as alterações anteriormente feitas para o stage
 
 ### Alterando coisas no Git
 `git commit --amend`  - Para alterar a mensagem do ultimo commit. O Git vai abrir o editor, com o conteúdo da mensagem do último commit e você pode editar e salvar e executar o comando para atulizar remotamente  `git push --force` 
@@ -93,10 +92,20 @@ Escrevendo no arquivo README.md
 `git check-ignore -v -n --no-index nomefile` - Excluir um arquivo de ser incluso no controle de versão do git
 
 ### Desfazendo alterações locais
+`git restore <nomeArquivo> - Para restaurar as ultimas alterações comitadas no arquivo local(descarta todas alteraçoes locais).
 `git restore .` - Para descartar as alterações em todos os arquivos no diretório atual
 
-`git restore '.js'` - Para descartar as alterações em todos os arquivos *.js do diretório atual
+`git restore '.js'` - Para descartar as alterações em todos os arquivos *.js do diretório atua
+`rm -rf .git` - Removendo a pasta .git da pasta atual, caso tenha sido criado na pasta errada
 
+Executar comando git log para pegar o <hash>:
+`git reset --soft <hash>` -  Apaga do repositorio git o historico de todos commits acima das hash e volta as alterações anteriormente feitas para o stage
+
+`git reset --mixed <hash>` - Volta ao estado de não versionado pelo git, os arquivos ficam fora do stage
+
+`git reset --hard <hash>` - Apaga do repositorio e do historico todos commits acima das hash e volta a ultima alteração commitada.  
+
+´git reflog´ - exibe historico de todas as ações de commits
 
 ### Comando Git Checkout
 `git checkout -b <branch>` - Cria uma nova branch a partir da branch atual, e posicina na nova branch
